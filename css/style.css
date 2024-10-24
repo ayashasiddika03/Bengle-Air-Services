@@ -80,8 +80,6 @@
 }
 .company_name::before {
   background-color: #181d38;
-  /*height: 2px;company_name
-  bottom: 0;*/
   transform-origin: 100% 50%;
   transform: scaleX(0);
   transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
@@ -276,6 +274,7 @@
   background-color: var(--primary);
   margin: 6px 0;
   transition: 0.4s;
+  margin-left: -10px;
 }
 
 .change .bar1 {
@@ -343,6 +342,10 @@
 }
 
 @media (min-width: 992px) {
+
+    .cn{
+        margin-left: 500px;
+    }
     .navbar .nav-item .dropdown-menu {
         display: block;
         margin-top: 0;
