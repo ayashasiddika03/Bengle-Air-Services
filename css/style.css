@@ -55,10 +55,24 @@
 .logo {
     display: inline-block;  
     transition: transform 0.3s ease;
+    width:35px;
+    max-height: 28px;
+    margin-bottom: 7px;
+    margin-left: -5px;
 }  
+
 .logo:hover {  
     transform: scale(1.2); 
-} 
+}
+.c_name{
+    color: var(--primary);
+    font-weight: bolder;
+    font-size: 24px;
+    font-family: 'Cormorant SC';
+}
+.c_name:hover{
+    color:var(--dark);
+}
 /********** Nav logo **********/
 
 /********** Nav Company Name **********/
@@ -66,9 +80,9 @@
   overflow: hidden;
   position: relative;
   display: inline-block;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 600;
-  margin-left: -35px;
+  margin-left: -45px;
   font-family: 'Cormorant SC';
 }
 .company_name::before,
@@ -261,6 +275,8 @@
 
 .navbar-toggler {
   border:none;
+  margin-left: -50px;
+  margin-right: 10px;
 }
 
 .nav_bars {
@@ -274,7 +290,6 @@
   background-color: var(--primary);
   margin: 6px 0;
   transition: 0.4s;
-  margin-left: -10px;
 }
 
 .change .bar1 {
@@ -342,10 +357,6 @@
 }
 
 @media (min-width: 992px) {
-
-    .cn{
-        margin-left: 500px;
-    }
     .navbar .nav-item .dropdown-menu {
         display: block;
         margin-top: 0;
